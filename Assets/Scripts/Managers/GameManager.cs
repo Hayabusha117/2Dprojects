@@ -9,7 +9,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         currentstate = GameState.ON_START;
-        EvaluateState();
+        //EvaluateState();
     }
 
     public void EvaluateState()
